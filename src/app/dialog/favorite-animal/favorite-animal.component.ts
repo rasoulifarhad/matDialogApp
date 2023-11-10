@@ -25,7 +25,7 @@ import { FavoriteAnimalDialogComponent } from '../favorite-animal-dialog/favorit
   ]
 
 })
-export class CourseDialogComponent {
+export class FavoriteAnimalComponent {
 
   animal!: string;
   name!: string;

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {MatDialog, MatDialogConfig} from '@angular/material/dialog'
-import { CourseDialogComponent } from './dialog/favorite-animal/favorite-animal.component';
+import { FavoriteAnimalComponent } from './dialog/favorite-animal/favorite-animal.component';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +21,6 @@ export class AppComponent {
     //   left: '0'
     // };
     dialogConfig.direction = 'ltr';
-    this.dialog.open(CourseDialogComponent, dialogConfig);
+    this.dialog.open(FavoriteAnimalComponent, dialogConfig);
   }
 }

@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CourseDialogComponent } from './favorite-animal.component';
+import { FavoriteAnimalComponent } from './favorite-animal.component';
 
 describe('CourseDialogComponent', () => {
-  let component: CourseDialogComponent;
-  let fixture: ComponentFixture<CourseDialogComponent>;
+  let component: FavoriteAnimalComponent;
+  let fixture: ComponentFixture<FavoriteAnimalComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [CourseDialogComponent]
+      declarations: [FavoriteAnimalComponent]
     });
-    fixture = TestBed.createComponent(CourseDialogComponent);
+    fixture = TestBed.createComponent(FavoriteAnimalComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
