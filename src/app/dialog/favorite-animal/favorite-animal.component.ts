@@ -7,13 +7,13 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
-import { CourseDialogContainerComponent } from '../course-dialog-container/course-dialog-container.component';
+import { FavoriteAnimalDialogComponent } from '../favorite-animal-dialog/favorite-animal-dialog.component';
 
 
 @Component({
-  selector: 'app-course-dialog',
-  templateUrl: './course-dialog.component.html',
-  styleUrls: ['./course-dialog.component.css'],
+  selector: 'app-favorite-animal',
+  templateUrl: './favorite-animal.component.html',
+  styleUrls: ['./favorite-animal.component.css'],
   standalone: true,
   imports: [
     MatDialogModule,
@@ -34,7 +34,7 @@ export class CourseDialogComponent {
 
 }
   openDialog() : void {
-    const dialogRef = this.dialog.open(CourseDialogContainerComponent,  {
+    const dialogRef = this.dialog.open(FavoriteAnimalDialogComponent,  {
       data : {name : this.name, animal : this.animal}
     });
     dialogRef.afterClosed().subscribe( result => {

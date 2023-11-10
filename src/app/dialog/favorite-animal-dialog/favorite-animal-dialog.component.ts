@@ -7,9 +7,9 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-course-dialog-container',
-  templateUrl: './course-dialog-container.component.html',
-  styleUrls: ['./course-dialog-container.component.css'],
+  selector: 'favorite-animal-dialog',
+  templateUrl: './favorite-animal-dialog.component.html',
+  styleUrls: ['./favorite-animal-dialog.component.css'],
   standalone: true,
   imports: [
     MatDialogModule,
@@ -20,9 +20,9 @@ import { FormsModule } from '@angular/forms';
   ]
 
 })
-export class CourseDialogContainerComponent {
+export class FavoriteAnimalDialogComponent {
 
-  constructor(public dialogRef: MatDialogRef<CourseDialogContainerComponent>,
+  constructor(public dialogRef: MatDialogRef<FavoriteAnimalDialogComponent>,
               @Inject(MAT_DIALOG_DATA) public data: DialogData) {
 
   }

@@ -10,8 +10,8 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CourseDialogComponent } from './dialog/course-dialog/course-dialog.component';
-import { CourseDialogContainerComponent } from './dialog/course-dialog-container/course-dialog-container.component';
+import { CourseDialogComponent } from './dialog/favorite-animal/favorite-animal.component';
+import { FavoriteAnimalDialogComponent } from './dialog/favorite-animal-dialog/favorite-animal-dialog.component';
 
 @NgModule({
     declarations: [

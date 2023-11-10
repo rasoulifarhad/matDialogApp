@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CourseDialogComponent } from './course-dialog.component';
+import { CourseDialogComponent } from './favorite-animal.component';
 
 describe('CourseDialogComponent', () => {
   let component: CourseDialogComponent;
